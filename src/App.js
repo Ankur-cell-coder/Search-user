@@ -1,9 +1,9 @@
 import './App.css';
 import React from 'react';
-import Dashboard from './components/Dashboard';
-import Login from './components/Login';
+import Dashboard from './pages/Dashboard';
+import Login from './pages/Login';
 import {BrowserRouter as Router ,Routes,Route} from 'react-router-dom';
-import Error from './components/Error';
+import Error from './pages/Error';
 
 function App() {
   return (
