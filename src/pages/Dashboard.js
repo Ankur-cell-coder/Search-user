@@ -12,7 +12,7 @@ function Dashboard() {
   if(isLoading){
     return(
       <main>
-        <Navbar/>
+        {/* <Navbar/> */}
         <Search/>
         <img src={loadingImage} className='loading-img' alt='loading'/>
       </main>
@@ -20,7 +20,7 @@ function Dashboard() {
   }
   return (
     <div>
-      <Navbar/>
+      {/* <Navbar/> */}
       <Search/>
       <Info/>
       <User/>
